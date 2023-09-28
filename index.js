@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 
 // Connect to MongoDB database
-mongoose.connect("mongodb://0.0.0.0:27017/todo_listDB", { useNewUrlParser: true }).then(() => {
+mongoose.connect("mongodb+srv://satnam9762:Codeguy9762@cluster0.e7cog2s.mongodb.net/todo_listDB", { useNewUrlParser: true }).then(() => {
     // some express and ejs configurations
     const app = express();
     app.set('view engine', 'ejs');
